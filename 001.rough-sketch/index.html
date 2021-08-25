@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rough sketch</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@300&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+      }
+      h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #222;
+      }
+      h2,
+      h3,
+      h4,
+      p,
+      a {
+        font-family: 'Roboto', 'Noto Sans KR' sans-serif;
+        line-height: 1.6;
+        color: #666;
+      }
+      a {
+        text-decoration: none;
+      }
+      #header {
+        width: 100%;
+        height: 800px;
+        background: url(images/roughimg.jpg) no-repeat center center;
+        background-size: cover;
+        box-shadow: 0 2px 15px 0 #ccc;
+        position: relative;
+      }
+      #hgroup {
+        padding: 50px 30px;
+        background: linear-gradient(
+          rgba(10, 10, 10, 0),
+          rgba(10, 10, 10, 0.75)
+        );
+        position: absolute;
+        bottom: 0;
+      }
+      #header h1 {
+        font-size: 2.6rem;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        color: white;
+      }
+      #header p {
+        line-height: 1.8;
+        word-break: keep-all;
+        color: #ddd;
+      }
+      @media (min-width: 680px) {
+        #hgroup {
+          padding: 0 280px 80px 60px;
+        }
+      }
+      @media (min-width: 950px) {
+        #header {
+          height: 650px;
+          background: url(images/roughimg.jpg) no-repeat right center;
+          background-size: contain;
+        }
+        #hgroup {
+          background: none;
+          width: 400px;
+          left: 7%;
+          bottom: 18%;
+          padding: 0;
+        }
+        #header h1 {
+          color: #222;
+          font-size: 2.4rem;
+        }
+        #header p {
+          color: #666;
+          font-size: 0.9rem;
+        }
+      }
+      @media (min-width: 1050px) {
+        #hgroup {
+          width: 480px;
+          bottom: 20%;
+        }
+        #hgroup h1 {
+          font-size: 2.6rem;
+        }
+        #hgroup p {
+          font-size: 1rem;
+        }
+      }
+      @media (min-width: 1200px) {
+        #hgroup {
+          bottom: 24%;
+          width: 620px;
+        }
+        #hgroup h1 {
+          font-size: 3rem;
+        }
+        #hgroup p {
+          font-size: 1rem;
+        }
+      }
+      @media (min-width: 1400px) {
+        #header {
+          height: 750px;
+          background-color: #eee;
+        }
+        #hgroup {
+          bottom: 28%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <hgroup id="hgroup">
+        <h1>Create a Constellation by Connecting Dots</h1>
+        <p>
+          '멀미가 있는 선장지망생'이라는 말을 들었습니다. 아무리 힘든 길이어도
+          포기하지 않고 걷다보면 완주하는 순간이 오지 않을까요? 디자인과 개발을
+          배우면서 어려운 순간이 많았습니다. 하지만 실패하고 무너져도 또다시
+          일어났습니다. 제가 이 일을 참 많이 좋아하나 봅니다. 무한히 성장하는
+          디자이너이자 프론트엔드 개발자, 양수연입니다.
+        </p>
+      </hgroup>
+    </header>
+  </body>
+</html>

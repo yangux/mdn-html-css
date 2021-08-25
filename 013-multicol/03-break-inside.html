@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Multicol starting point</title>
+    <style>
+        body {
+            width: 90%;
+            max-width: 900px;
+            margin: 2em auto;
+            font: .9em/1.2 Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            column-width: 300px;
+            column-gap: 30px;
+            /* column-rule: 1px dashed skyblue; */
+        }
+        .banner {
+            column-span: all;
+            background-color: skyblue;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            padding: 0.8em 0.5em;
+        }
+
+        /* fragment */
+        .card {
+            page-break-inside: avoid;
+            break-inside: avoid;
+            border: 1px solid skyblue;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple multicol example</h1>
+
+        <p class="card"> Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada ultrices. Phasellus turpis est, posuere
+            sit amet dapibus ut, facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam lorem. Vivamus
+            tristique elit dolor, sed pretium metus suscipit vel. Mauris ultricies lectus sed lobortis finibus. Vivamus eu
+            urna eget velit cursus viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea fugit nam doloribus asperiores? Facilis, dignissimos deserunt! Illum eius magni maiores sunt aut eum, placeat corrupti a odit omnis quisquam magnam commodi id distinctio quae delectus dicta alias maxime corporis animi. Doloremque voluptatibus eveniet tempore quas doloribus voluptatum molestias accusantium corrupti nisi maiores sed, natus consequatur rerum incidunt aliquam non porro modi? Saepe, illo quo. Provident eius explicabo porro autem, corrupti totam voluptatem rerum numquam vero ullam commodi quidem, culpa magni tempora repellat nam libero praesentium incidunt qui. Animi facere dignissimos eos numquam dolores? Error maxime labore reprehenderit est officiis.</p>
+        <p class="card"> Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada ultrices. Phasellus turpis est, posuere
+            sit amet dapibus ut, facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam lorem. Vivamus
+            tristique elit dolor, sed pretium metus suscipit vel. Mauris ultricies lectus sed lobortis finibus. Vivamus eu
+            urna eget velit cursus viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea fugit nam doloribus asperiores? Facilis, dignissimos deserunt! Illum eius magni maiores sunt aut eum, placeat corrupti a odit omnis quisquam magnam commodi id distinctio quae delectus dicta alias maxime corporis animi. Doloremque voluptatibus eveniet tempore quas doloribus voluptatum molestias accusantium corrupti nisi maiores sed, natus consequatur rerum incidunt aliquam non porro modi? Saepe, illo quo. Provident eius explicabo porro autem, corrupti totam voluptatem rerum numquam vero ullam commodi quidem, culpa magni tempora repellat nam libero praesentium incidunt qui. Animi facere dignissimos eos numquam dolores? Error maxime labore reprehenderit est officiis.</p>
+        <p class="card"> Nam vulputate diam nec tempor bibendum. Donec luctus augue eget malesuada ultrices. Phasellus turpis est, posuere
+            sit amet dapibus ut, facilisis sed est. Nam id risus quis ante semper consectetur eget aliquam lorem. Vivamus
+            tristique elit dolor, sed pretium metus suscipit vel. Mauris ultricies lectus sed lobortis finibus. Vivamus eu
+            urna eget velit cursus viverra quis vestibulum sem. Aliquam tincidunt eget purus in interdum. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ea fugit nam doloribus asperiores? Facilis, dignissimos deserunt! Illum eius magni maiores sunt aut eum, placeat corrupti a odit omnis quisquam magnam commodi id distinctio quae delectus dicta alias maxime corporis animi. Doloremque voluptatibus eveniet tempore quas doloribus voluptatum molestias accusantium corrupti nisi maiores sed, natus consequatur rerum incidunt aliquam non porro modi? Saepe, illo quo. Provident eius explicabo porro autem, corrupti totam voluptatem rerum numquam vero ullam commodi quidem, culpa magni tempora repellat nam libero praesentium incidunt qui. Animi facere dignissimos eos numquam dolores? Error maxime labore reprehenderit est officiis.</p>
+    </div>
+</body>
+
+</html>

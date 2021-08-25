@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'loraregular';
+    src: url('fonts/lora-regular-webfont.woff2') format('woff2'),
+         url('fonts/lora-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* typography */
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'loraregular', serif;
+}
+
+h1, h2 {
+  font-family: 'latoregular', sans-serif;
+  letter-spacing: 0.6px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+p, li {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  word-spacing: 1px;
+}
+
+section h2 + p {
+  text-indent: 20px;
+}
+
+/* link */
+a {
+  outline: none;
+}
+
+a:link, a:visited, a:focus, a:hover {
+  color: #a66;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: #c44;
+}
+
+a[href*="http"] {
+  padding-right: 20px;
+  background: url(external-link.png) no-repeat;
+  background-position: right center;
+  background-size: 16px;
+}
+
+/* list */
+ul, ol {
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li::before {
+  content: '❏';
+  display: inline-block;
+  color: #a66;
+  font-size: 0.8em;
+  margin-left: -16px;
+  margin-right: 8px;
+}
+
+/* navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-family: 'latoregular', sans-serif;
+  text-align: center;
+  line-height: 3;
+  border-bottom: 1px solid #a66;
+}
+
+nav ul li:last-child a {
+  border-bottom: none;
+}
+
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a:focus,
+nav ul li a:hover,
+nav ul li a:active {
+  color: #a66;
+}
+
+nav ul li a:hover {
+  background-color: rgb(245, 229, 229);
+}

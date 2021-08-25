@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rough sketch</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto:wght@300&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+      }
+      span {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #fff;
+      }
+      #header {
+        width: 100%;
+        height: 700px;
+        background: url(images/roughimg.jpg) no-repeat center center;
+        background-size: cover;
+        box-shadow: 0 2px 15px 0 #ccc;
+        padding: 410px 0 0 30px;
+      }
+      #hgroup {
+        width: 380px;
+      }
+      #hgroup span {
+        font-size: 2.6rem;
+        line-height: 1.3;
+        background-color: rgba(10, 10, 10, 0.9);
+      }
+      @media (min-width: 600px) {
+        #header {
+          padding: 440px 0 40px 40px;
+        }
+        #hgroup {
+          width: 500px;
+        }
+        #hgroup span {
+          font-size: 3rem;
+        }
+      }
+      @media (min-width: 1200px) {
+        #header {
+          padding: 360px 0 60px 60px;
+          background: url(images/roughimg.jpg) no-repeat right center;
+          background-size: contain;
+          background-color: rgba(245, 245, 245, 1);
+        }
+        #hgroup {
+          width: 600px;
+        }
+        #hgroup span {
+          font-size: 3.4rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <hgroup id="hgroup">
+        <span>Create a CONSTELLATION by Connecting Dots</span>
+      </hgroup>
+    </header>
+  </body>
+</html>

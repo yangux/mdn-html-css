@@ -1,0 +1,94 @@
+/* reset */
+            html {
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            body {
+                margin: 1em 0; padding: 0;
+            }
+            *, *::after, *::before {
+                box-sizing: inherit;
+            }
+
+            /* form reset */
+            input,
+            textarea,
+            select,
+            button {
+                margin: 0; padding: 0;
+                font-family: inherit;
+                font-size: inherit;
+                color: #333;
+            }
+            textarea {
+                overflow: auto;
+            }
+
+            /* layout */
+            a {
+                color: teal;
+                margin: 1em;
+            }
+
+            form {
+                background-color: mintcream;
+                padding: 3em;
+                display: flex;
+                justify-content: center;
+                margin: 30px auto;
+            }
+           
+            div {
+                width: 520px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                color: mediumseagreen;
+                font-weight: lighter;
+                margin: 0;
+                margin-bottom: 1.5em;
+            }
+
+            ul {
+                margin: 0; padding: 0;
+            }
+            li {
+                margin: 0; padding: 0;
+                list-style: none;
+                display: flex;
+            }
+            li:last-child {
+                direction: rtl;
+            }
+            label {
+                color: mediumseagreen;
+                margin-top: 0.8em;
+                flex-basis: 20%;
+                text-align: right;
+                margin-right: 1.8em;
+            }
+            
+            input,
+            textarea,
+            select {
+                width: 100%;
+                margin-top: 0.6em;
+                border: 1px solid mediumaquamarine;
+                border-radius: 2px;
+                padding: 0.4em;
+            }
+
+            button {
+                margin-top: 1.4em;
+                padding: .4em 1em;
+                border: none;
+                border-radius: 5px;
+                background-color: mediumseagreen;
+                color: white;
+                cursor: pointer;
+            }
+            
+            button:hover {
+                background-color: seagreen;
+            }
